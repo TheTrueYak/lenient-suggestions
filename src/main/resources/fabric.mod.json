@@ -1,0 +1,30 @@
+{
+	"schemaVersion": 1,
+	"id": "lenientsuggestions",
+	"version": "${version}",
+	"name": "Lenient Suggestions",
+	"description": "Makes command suggestions kinder, they can now autocomplete things from namespaces other than minecraft",
+	"authors": [
+		"TheTrueYak (Developer)",
+		"Nitron (Icon)"
+	],
+	"license": "MIT",
+	"icon": "assets/lenientsuggestions/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.yak.lenientsuggestions.LenientSuggestions"
+		]
+	},
+	"mixins": [
+		"lenientsuggestions.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "net.yak.lenientsuggestions.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"CommandSourceMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
