@@ -2,7 +2,7 @@
 	"required": true,
 	"package": "net.yak.lenientsuggestions.mixin",
 	"compatibilityLevel": "JAVA_21",
-	"mixins": [
+	"client": [
 		"CommandSourceMixin"
 	],
 	"injectors": {
